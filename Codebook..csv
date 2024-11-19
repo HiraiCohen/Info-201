@@ -1,0 +1,93 @@
+﻿Dataframe,Column Name,Meaning
+games_df,,
+,Game_Rank,The rank of the game on Twitch
+,Game,Game name
+,Game_Month,Month the data was collected in
+,Game_Year,Year the data was collected in
+,Game_Hours_watched,Hours watched by Twitch viewers in a given month
+,Game_Hours_streamed,Hours of the game streamed by Twitch streamers in a given month
+,Game_Peak_viewers,The peak viewers across a game any point in time for a given game in a given month
+,Game_Peak_channels,The peak channels across a game any point in time for a given game in a given month
+,Game_Streamers,The total # of streamers that streamed the game in a given month
+,Game_Avg_viewers,The avg # of viewers of a game at any time in a given month
+,Game_Avg_channels,The avg # of channels streaming the game at any time in a given month
+,Game_Avg_viewer_ratio,Game avg viewers / game avg channels
+streamers_df,,
+,RANK,Streamer rank on Twitch
+,NAME,Streamer name
+,LANGUAGE,The primary language spoken by the streamer
+,TYPE,They type of content the streamer focuses on
+,MOST_STREAMED_GAME,The streamer's most streamed game
+,2ND_MOST_STREAMED_GAME,The streamer's second most streamed game
+,AVERAGE_STREAM DURATION,The streamer's average stream duration
+,FOLLOWERS_GAINED_PER_STREAM,Average # of followers gained per stream
+,AVG_VIEWERS_PER_STREAM,Average # of viewers per stream
+,TOTAL_TIME_STREAMED,Total time the streamer streamed
+,TOTAL_FOLLOWERS,Total # of followers the streamer had at the end of the period
+,TOTAL_VIEWS,Total # of views the streamer had
+,TOTAL_GAMES_STREAMED,The total # of games the streamer streamed
+,ACTIVE_DAYS_PER_WEEK,Average # of days per week the streamer streamed
+,MOST_ACTIVE_DAY,Streamer's most active day
+,DAY_WITH_MOST_FOLLOWERS_GAINED,The day the streamer tended to gain the most followers
+filtered_games_df,,
+,Game_Rank,The rank of the game on Twitch
+,Game,Game name
+,Game_Year,Year the data was collected in
+,Game_Hours_watched,Hours watched by Twitch viewers in a given month
+,Game_Hours_streamed,Hours of the game streamed by Twitch streamers in a given month
+,Game_Peak_viewers,The peak viewers across a game any point in time for a given game in a given month
+,Game_Peak_channels,The peak channels across a game any point in time for a given game in a given month
+,Game_Streamers,The total # of streamers that streamed the game in a given month
+,Game_Avg_viewers,The avg # of viewers of a game at any time in a given month
+,Game_Avg_channels,The avg # of channels streaming the game at any time in a given month
+,Game_Avg_viewer_ratio,Game avg viewers / game avg channels
+filtered_streamers_df,,
+,RANK,Streamer rank on Twitch
+,NAME,Streamer name
+,LANGUAGE,The primary language spoken by the streamer
+,TYPE,They type of content the streamer focuses on
+,MOST_STREAMED_GAME,The streamer's most streamed game
+,FOLLOWERS_GAINED_PER_STREAM,Average # of followers gained per stream
+,AVG_VIEWERS_PER_STREAM,Average # of viewers per stream
+,TOTAL_TIME_STREAMED,Total time the streamer streamed
+,TOTAL_FOLLOWERS,Total # of followers the streamer had at the end of the period
+,TOTAL_VIEWS,"Total # of views the streamer had (VODs, clips, etc.)"
+,TOTAL_GAMES_STREAMED,The total # of games the streamer streamed
+,ACTIVE_DAYS_PER_WEEK,Average # of days per week the streamer streamed
+games_growth,,
+,Game,Game name
+,Growth_Hours_Watched,Growth in hours watched from April to May 2024
+,Growth_Hours_Streamed,Growth in hours streamed from April to May 2024
+,Growth_Peak_Viewers,Growth in peak viewers per game from April to May 2024
+,Growth_Avg_Viewers,Growth in avg viewers per game from April to May 2024
+,Growth_Streamers,Growth in total # of streamers per gaem from April to May 2024
+final_twitch_df,,
+,RANK,Streamer rank on Twitch
+,NAME,Streamer name
+,LANGUAGE,The primary language spoken by the streamer
+,TYPE,They type of content the streamer focuses on
+,MOST_STREAMED_GAME,The streamer's most streamed game
+,FOLLOWERS_GAINED_PER_STREAM,Average # of followers gained per stream
+,AVG_VIEWERS_PER_STREAM,Average # of viewers per stream
+,TOTAL_TIME_STREAMED,Total time the streamer streamed
+,TOTAL_FOLLOWERS,Total # of followers the streamer had at the end of the period
+,TOTAL_VIEWS,"Total # of views the streamer had (VODs, clips, etc.)"
+,TOTAL_GAMES_STREAMED,The total # of games the streamer streamed
+,ACTIVE_DAYS_PER_WEEK,Average # of days per week the streamer streamed
+,Game_Rank,The rank of the game on Twitch
+,Game_Year,Year the data was collected in
+,Game_Hours_watched,Hours watched by Twitch viewers in a given month
+,Game_Hours_streamed,Hours of the game streamed by Twitch streamers in a given month
+,Game_Peak_viewers,The peak viewers across a game any point in time for a given game in a given month
+,Game_Peak_channels,The peak channels across a game any point in time for a given game in a given month
+,Game_Streamers,The total # of streamers that streamed the game in a given month
+,Game_Avg_viewers,The avg # of viewers of a game at any time in a given month
+,Game_Avg_channels,The avg # of channels streaming the game at any time in a given month
+,Game_Avg_viewer_ratio,Game avg viewers / game avg channels
+streamers_total,,
+,Game,Game name
+,Followers_gained_per_stream,Total # of followers gained across all streams of a particular game
+,Avg_Monthly_Viewers,Average total # of viewers of a game at any particular time
+,Total_Time_Streamed,Total time streamed of the game across the period
+,Game_Streamers_Total_Followers,Total followers of all streamers that streamed the game
+,Game_Streamers_Total_Views,"Total views across all streamers that streamed the game (VODs, clips, etc.)"
